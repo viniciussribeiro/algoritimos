@@ -1,0 +1,14 @@
+double a, b, res;
+    Console.Write("Digite o valor de a: ");
+    a= double.Parse(Console.ReadLine());
+    Console.Write("Digite o valor de b: ");
+    b= double.Parse(Console.ReadLine());
+    res= a + b;
+    Console.Write("Soma= " +res+ ";"+" ");
+    res=a-b;
+  	Console.Write("Subtração= " +res+ ";"+" ");
+   	res=a*b;
+ 	Console.Write("Multiplicação= " +res+ ";"+" ");
+   	res=a/b;
+	Console.Write("Divisão= " +res+ ";"+" ");
+  Console.ReadKey();

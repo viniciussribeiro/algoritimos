@@ -1,0 +1,10 @@
+		double prestacao,valor,taxa,tempo;
+		Console.Write("Digite o valor da prestação");
+		valor = double.Parse(Console.ReadLine());
+		Console.Write("Digite a taxa de juros:");
+		taxa = double.Parse(Console.ReadLine());
+		Console.Write("Digite a qtd. de dias de atraso:");
+		tempo = double.Parse(Console.ReadLine());
+		prestacao= valor + (valor*(taxa/100)*tempo);
+		Console.Write("O valor da prestação é: "+prestacao);
+		Console.ReadKey();
